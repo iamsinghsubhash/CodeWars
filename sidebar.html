@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- link css file  -->
+    <link rel="stylesheet" href="sidebarcss.css">
+
+    <!-- font awesome  -->
+<script src="https://kit.fontawesome.com/84121ef543.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body onscroll="showFun()">
+     <!-- left side bar for laptop screen  -->
+ <div class="laptop-sidebar">
+  <ul>
+    <li>
+      <a href="" class="laptop-logo">
+        <div class="laptop-logo-heading">
+          <img class="fas" src="right-assets/asset 0.svg" alt="">
+          <span class="laptop-nav-item">Home</span>
+        </div>
+        <p>Report home for your next assignment.</p>
+      </a>
+    </li>
+
+    <li>
+      <div class="dot-wrapper" href="#" style="display: flex;">
+        <div class="dot"></div>
+        <span class="laptop-nav-item laptop-dot" >TRAINNING</span>
+      </div>
+    </li>
+
+    <li>
+      <a href="#" class="laptop-logo">
+        <div class="side-menu-icon">
+          <img src="right-assets/asset 7.svg" alt="">
+          <!-- <i class="fa-solid fa-child"></i> -->
+        <span class="laptop-nav-item">Practice</span>
+      </div>
+        <p>Complete challenging Kata to earn honor and ranks. Re-train to hone techique</p>
+      </a>
+    </li>
+
+  <li>
+    <a href="#" class="laptop-logo">
+      <div class="side-menu-icon">
+        <img src="right-assets/asset 8.svg" alt="">
+        <!-- <i class="fa-solid fa-link"></i> -->
+            <span class="laptop-nav-item">Freestyle Sparring</span>
+      </div>
+      <p>Take turns remixing and refactoring others code through kumite</p>
+    </a>
+  </li>
+
+  <li>
+    <div class="dot-wrapper" href="#" style="display: flex;">
+      <div class="dot"></div>
+      <span class="laptop-nav-item laptop-dot" >COMMUNITY</span>
+    </div>
+  </li>
+
+  <li>
+    <a href="#" class="laptop-logo">
+      <div class="side-menu-icon">
+        <img src="right-assets/asset 9.svg" alt="">
+        <!-- <i class="fa-solid fa-chart-line"></i> -->
+      <span class="laptop-nav-item">Leaderboards</span>
+    </div>
+      <p>Achive honor and move up the global leaderboards</p>
+    </a>
+  </li>
+
+  <li>
+    <a href="#" class="laptop-logo">
+      <div class="side-menu-icon">
+        <img src="right-assets/asset 10.svg" alt="">
+        <!-- <i class="fa-brands fa-discord"></i> -->
+      <span class="laptop-nav-item">Chat</span>
+      </div>
+      <p>Join our Discord server and chat with your fellow code warriors</p>
+    </a>
+  </li>
+
+  <li>
+    <a href="#" class="laptop-logo">
+      <div class="side-menu-icon">
+        <img src="right-assets/asset 11.svg" alt="">
+        <!-- <i class="fa-solid fa-envelope"></i> -->
+        <span class="laptop-nav-item">Discussions</span>
+      </div>
+      <p>View our Github Discussion board to discuss general Codewars topics</p>
+    </a>
+  </li>
+
+  <li>
+    <div class="dot-wrapper" href="#" style="display: flex;">
+      <div class="dot"></div>
+      <span class="laptop-nav-item laptop-dot">ABOUT</span>
+    </div>
+  </li>
+
+  <li>
+    <a href="#" class="laptop-logo">
+      <div class="side-menu-icon">
+        <img src="right-assets/asset 12.svg" alt="">
+        <!-- <i class="fa-brands fa-dochub"></i> -->
+      <span class="laptop-nav-item">Docs</span>
+      </div>
+      <p>Learn about all of the different aspects of Codewars</p>
+    </a>
+  </li>
+
+  </ul>
+</div>
+
+
+    <button id="sidebarToggle" class="sidebar-toggle">☰</button>
+    <nav class="sidebar">
+        <ul>    
+          <!-- left side bar for mobile devices -->
+                
+                   <ul>
+                     <li>
+                       <a href="" class="logo">
+                         <div class="logo-heading">
+                           <img class="fas" src="right-assets/asset 0.svg" alt="">
+                           <span class="nav-item">Home</span>
+                         </div>
+                         <!-- <p>Report home for your next assignment.</p> -->
+                       </a>
+                     </li>
+             
+                     <li>
+                       <div class="dot-wrapper" href="#" style="display: flex;">
+                         <div class="dot"></div>
+                         <span class="nav-item" >TRAINNING</span>
+                       </div>
+                     </li>
+             
+                     <li>
+                       <a href="#" class="logo">
+                         <div class="logo-heading">
+                          <img src="right-assets/asset 7.svg" alt="">
+                           <!-- <i class="fa-solid fa-child"></i> -->
+                         <span class="nav-item">Practice</span>
+                       </div>
+                         <p>Complete challenging Kata to earn honor and ranks. Re-train to hone techique</p>
+                       </a>
+                     </li>
+             
+                   <li>
+                     <a href="#" class="logo">
+                       <div class="logo-heading">
+                        <img src="right-assets/asset 8.svg" alt="">
+                         <!-- <i class="fa-solid fa-link"></i> -->
+                             <span class="nav-item">Freestyle Sparring</span>
+                       </div>
+                       <p>Take turns remixing and refactoring others code through kumite</p>
+                     </a>
+                   </li>
+             
+                   <li>
+                     <div class="dot-wrapper" href="#" style="display: flex;">
+                       <div class="dot"></div>
+                       <span class="nav-item">COMMUNITY</span>
+                     </div>
+                   </li>
+             
+                   <li>
+                     <a href="#" class="logo">
+                       <div class="logo-heading">
+                        <img src="right-assets/asset 9.svg" alt="">
+                         <!-- <i class="fa-solid fa-chart-line"></i> -->
+                       <span class="nav-item">Leaderboards</span>
+                     </div>
+                       <p>Achive honor and move up the global leaderboards</p>
+                     </a>
+                   </li>
+             
+                   <li>
+                     <a href="#" class="logo">
+                       <div class="logo-heading">
+                        <img src="right-assets/asset 10.svg" alt="">
+                         <!-- <i class="fa-brands fa-discord"></i> -->
+                       <span class="nav-item">Chat</span>
+                       </div>
+                       <p>Join our Discord server and chat with your fellow code warriors</p>
+                     </a>
+                   </li>
+             
+                   <li>
+                     <a href="#" class="logo">
+                       <div class="logo-heading">
+                        <img src="right-assets/asset 11.svg" alt="">
+                         <!-- <i class="fa-solid fa-envelope"></i> -->
+                         <span class="nav-item">Discussions</span>
+                       </div>
+                       <p>View our Github Discussion board to discuss general Codewars topics</p>
+                     </a>
+                   </li>
+             
+                   <li>
+                     <div class="dot-wrapper" href="#" style="display: flex;">
+                       <div class="dot"></div>
+                       <span class="nav-item" >ABOUT</span>
+                     </div>
+                   </li>
+             
+                   <li>
+                     <a href="#" class="logo">
+                       <div class="logo-heading">
+                        <img src="right-assets/asset 12.svg" alt="">
+                         <!-- <i class="fa-brands fa-dochub"></i> -->
+                       <span class="nav-item">Docs</span>
+                       </div>
+                       <p>Learn about all of the different aspects of Codewars</p>
+                     </a>
+                   </li>
+                   </ul>
+            
+                </ul>
+          </nav>
+
+
+<!-- right - menu -->
+  
+    <div class="right-top-menu">
+        <div class="icon"><a href="" ><i class="fa-solid fa-moon" onclick="myFunction()"></i></a></div>
+        <div class="icon" id="hover-bookmark"><a href=""> <i class="fa-solid fa-bookmark "></i></a></div>
+        <div class="icon" id="hover-bell"><a href=""> <i class="fa-solid fa-bell "></i></a></div>
+        <div class="icon" id="hover-profile">
+            <a href=""> 
+            <img src="right-assets/asset 1.png" width="50px" height="30px" style="border-radius: 5px;margin-left: 15px;" alt=""> 
+            </a>
+        </div> 
+        <div class="icon"></div>
+        <div class="icon"></div>
+   </div>
+
+   <!-- profile-wrapper -->
+
+   <div class="profile-wrapper">
+    <div class="profile-botom-border"><a href=""><i class="fa-solid fa-user"></i>&nbsp;&nbsp;View Profile</a>
+     </div>
+    <div class="profile-botom-border mt-2">
+      <a href=""><i class="fa-solid fa-gear mt-2"></i>&nbsp;&nbsp;Account Setting</a><br>
+      <a href=""><i class="fa-solid fa-gear mt-2"></i>&nbsp;&nbsp;Tranning setup</a>
+    </div>
+    <div class="profile-botom-border mt-2">
+      <a href="">
+        <i class="fa-solid fa-arrow-up-from-bracket mt-2"></i>&nbsp;&nbsp;Upgrade to red
+      </a>
+    </div>
+    <div class="mt-2">
+      <a href=""><i class="fa-solid fa-power-off mt-2"></i>&nbsp;&nbsp;Sign Out
+      </a>
+    </div>
+  </div>
+
+  <!-- model  -->
+ 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   
+  <!-- form top div  -->
+  <!-- <div class="acntSetting">
+    <p>Account Settings</p>
+  </div> -->
+
+
+
+    <!-- form content  -->
+    <div class="container-wrapper ">
+        <!-- Main content of the page -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="your-mail-wrapper">
+                        <p><i class="fa-solid fa-triangle-exclamation"></i> &nbsp;Your email is not confirmed.</p>
+                        <button style="border: 1px solid #8fb0e6;"><a href="" style="color: #8fb0e6;">RESEND CONFIRMATION</a></button>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- INFORMATION -->
+        <div class="container ">
+           <!-- row - 1 -->
+           <h6>INFORMATION</h6>
+            <div class="row ">
+                <div class="col-md-6 mt-2">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="text" class="form-control" placeholder="xyz@gmail.com" aria-label="First name">
+                    <label for="exampleFormControlInput1" class="form-label mt-3">Name</label>
+                    <input type="text" class="form-control" placeholder="Name" aria-label="First name">
+                </div>
+                <div class="col-md-6 mt-2">
+                    <label for="exampleFormControlInput1" class="form-label">User Name</label>
+                    <input type="text" class="form-control" placeholder="User name" aria-label="Last name">
+                    <label for="exampleFormControlInput1" class="form-label mt-3">Clan <i> (Company, School or Organization)</i></label>
+                    <input type="text" class="form-control" placeholder="Company, School or Organization" aria-label="Last name">
+                    <p>If set, you will be allied with users with the same clan <i> (docs)</i></p>
+                    <label for=""><input type="checkbox">&nbsp;&nbsp;Remove the previous clan members from allies when changing clans</label>
+                </div>
+            </div>
+            <!-- row -2  -->
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="exampleFormControlInput1" class="form-label">Skills <i> (Comma separated)</i></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Skills">
+                </div>
+            </div>
+        <!-- row-3  -->
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <label for="" class="mb-2">Development Experience</label><br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <p class="form-check-label" for="inlineRadio1">Beginner</p>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <p class="form-check-label" for="inlineRadio2">Advanced Beginner</p>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <p class="form-check-label" for="inlineRadio2">Competent</p>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <p class="form-check-label" for="inlineRadio2">Proficient</p>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <p class="form-check-label" for="inlineRadio2">Master</p>
+              </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- social-container -->
+        <div class="container">
+            <h6>SOCIAL</h6>
+            <div>
+                <button><a href=""><i class="fa-brands fa-github"></i>&nbsp;&nbsp;GitHub successfully linked as iamsinghsubhash</a></button>
+                <button style="color: #b1361e;border: 1px solid #b1361e;">UNLIKE</button>
+            </div>
+           
+            <div class="row mt-3">
+               <div class="col-md-12">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-brands fa-twitter"></i></span>
+                    <input type="text" class="form-control" placeholder="Your twitter user name" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-brands fa-linkedin"></i></span>
+                    <input type="text" class="form-control" placeholder="Your Linkedin Profile URL" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-brands fa-stack-overflow"></i></span>
+                    <input type="text" class="form-control" placeholder="Your stackExchange/StackOverFlow" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+               </div>
+            </div>
+        </div>
+
+        <!-- PREFERENCES container -->
+        <div class="container">
+            <h6>PREFERENCES</h6>
+            <div class="row mt-3">
+              <div class="col-md-12">
+                <form action="">
+                    <p for="" class="mb-2">Email Notifications:</p>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <p class="form-check-label" for="exampleRadios1">
+                        Do not email me
+                      </p>
+                    </div>
+                    <div class="form-check  mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <p class="form-check-label" for="exampleRadios2">
+                        Send me an email Immediately
+                      </p>
+                    </div>
+                    <div class="form-check  mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                      <p class="form-check-label" for="exampleRadios3">
+                        Send me digest emails once every 15 minutes
+                      </p>
+                    </div>
+                    <div class="form-check  mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <p class="form-check-label" for="exampleRadios2">
+                        Send me digest emails once an hour
+                      </p>
+                    </div>
+                    <div class="form-check  mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                      <p class="form-check-label" for="exampleRadios3">
+                        Send me digest emails once a day
+                      </p>
+                    </div>
+                </form><hr>
+
+            <!-- row  -->
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="">
+                        <p for="" class="mb-2">Default Catalog List View:</p>
+                    <div class="form-check  mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <p class="form-check-label" for="exampleRadios1">
+                        Show All Kata
+                      </p>
+                    </div>
+                    <div class="form-check  mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <p class="form-check-label" for="exampleRadios2">
+                        Approved Only
+                      </p>
+                    </div>
+                    <div class="form-check  mb-2">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                      <p class="form-check-label" for="exampleRadios3">
+                        Beta Only
+                      </p>
+                    </div>
+                  </form>
+                </div>
+            </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- PASSWORD container -->
+        <div class="container">
+          <h6>PASSWORD</h6>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label">New Password <i> (Leave blank if you don't wish to change it)</i></label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label">Confirm New Password</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+
+            <!-- row  -->
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <label for="exampleFormControlInput1" class="form-label">Current Password <i> (Needed if you change your password)</i></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+            </div>
+
+            <!-- row  -->
+            <div class="row mt-3">
+                <h6>WEBHOOKS</h6>
+                <p>Optionally be notified of events.</p>
+                <div class="col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label">Payload url</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label">Secret</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+        </div>
+
+        <!-- RED SUBSCRIPTION container  -->
+        <div class="container">
+            <h6>RED SUBSCRIPTION</h6>
+            <div class="row mt-3">
+              <div class="col-md-1">
+                <img src="right-assets/asset 0.svg" width="60px" alt="">
+              </div>
+              <div class="col-md-10">
+                <h6>Upgrade To Codewars Red!</h6>
+                <p>Support Codewars and get some fancy upgrades like Pro Stats, Head-to-head comparisons, No ads and more.</p>
+                <button><a href="" style="color: #b1361e;">LEARN MORE</a></button>
+              </div>
+            </div>
+        </div>
+
+        <!-- DELETE ACCOUNT container -->
+
+        <div class="container">
+            <h6>DELETE ACCOUNT</h6>
+            <div class="row">
+                <div class="col-md-12">
+                 <p>If you wish you can delete your account. Your authored kata, solutions and comments will remain but will instead be attached to a generic profile that is not associated with any of your personal information. After deleting your account you are free to sign up again using the same email address.</p>
+                 <button style="border:1px solid #b1361e;" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="delete-account"><a href="" style="color: #b1361e;">DELETE MY ACCOUNT</a></button>
+                </div>
+            </div>
+        </div>
+
+        <button class="mt-3 mb-3" style="background-color:#8fb0e6; border:none;border-radius:5px;padding: 3px 10px;"><a href="" style="color: black; text-decoration: none;">UPDATE</a></button>
+    </div>
+
+
+    <!-- Boot starp  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="sidebar.js"></script>
+</body>
+</html>

@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="user-edit.css">  
+
+<!-- fontawesome  -->
+<script src="https://kit.fontawesome.com/84121ef543.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <!-- profile box  -->
+    <div class="profile-wrapper">
+      <div class="profile-botom-border"><a href=""><i class="fa-solid fa-user"></i>&nbsp;&nbsp;View Profile</a>
+       </div>
+
+      <div class="profile-botom-border mt-2">
+        <a href=""><i class="fa-solid fa-gear mt-2"></i>&nbsp;&nbsp;Account Setting</a><br>
+        <a href=""><i class="fa-solid fa-gear mt-2"></i>&nbsp;&nbsp;Tranning setup</a>
+      </div>
+     
+      <div class="profile-botom-border mt-2">
+        <a href="">
+          <i class="fa-solid fa-arrow-up-from-bracket mt-2"></i>&nbsp;&nbsp;Upgrade to red
+        </a>
+      </div>
+
+      <div class="mt-2">
+        <a href=""><i class="fa-solid fa-power-off mt-2"></i>&nbsp;&nbsp;Sign Out
+        </a>
+      </div>
+    </div>
+
+   <!-- left menu icon  -->
+   <div class="left-icon">
+   <div class="container">
+    <div class="row d-flex align-items-start justify-content-start">
+      <div class="col-md-2">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+   </div>
+  </div>
+    <!-- left side bar  -->
+    <div class="laptop-sidebar">
+      <ul>
+        <li>
+          <a href="" class="laptop-logo">
+            <div class="laptop-logo-heading">
+              <img class="fas" src="right-assets/asset 0.svg" alt="">
+              <span class="laptop-nav-item">Home</span>
+            </div>
+            <p>Report home for your next assignment.</p>
+          </a>
+        </li>
+
+        <li>
+          <div class="dot-wrapper" href="#" style="display: flex;">
+            <div class="dot"></div>
+            <span class="laptop-nav-item" style="position: relative;left: 25px;top: -5px;">TRAINNING</span>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="laptop-logo">
+            <div class="laptop-logo-heading">
+              <i class="fa-solid fa-child"></i>
+            <span class="laptop-nav-item">Practice</span>
+          </div>
+            <p>Complete challenging Kata to earn honor and ranks. Re-train to hone techique</p>
+          </a>
+        </li>
+
+      <li>
+        <a href="#" class="laptop-logo">
+          <div class="laptop-logo-heading">
+            <i class="fa-solid fa-link"></i>
+                <span class="laptop-nav-item">Freestyle Sparring</span>
+          </div>
+          <p>Take turns remixing and refactoring others code through kumite</p>
+        </a>
+      </li>
+
+      <li>
+        <div class="dot-wrapper" href="#" style="display: flex;">
+          <div class="dot"></div>
+          <span class="laptop-nav-item" style="position: relative;left: 25px;top: -5px;">COMMUNITY</span>
+        </div>
+      </li>
+
+      <li>
+        <a href="#" class="laptop-logo">
+          <div class="laptop-logo-heading">
+            <i class="fa-solid fa-chart-line"></i>
+          <span class="laptop-nav-item">Leaderboards</span>
+        </div>
+          <p>Achive honor and move up the global leaderboards</p>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="laptop-logo">
+          <div class="laptop-logo-heading">
+            <i class="fa-brands fa-discord"></i>
+          <span class="laptop-nav-item">Chat</span>
+          </div>
+          <p>Join our Discord server and chat with your fellow code warriors</p>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="laptop-logo">
+          <div class="laptop-logo-heading">
+            <i class="fa-solid fa-envelope"></i>
+            <span class="laptop-nav-item">Discussions</span>
+          </div>
+          <p>View our Github Discussion board to discuss general Codewars topics</p>
+        </a>
+      </li>
+
+      <li>
+        <div class="dot-wrapper" href="#" style="display: flex;">
+          <div class="dot"></div>
+          <span class="laptop-nav-item" style="position: relative;left: 25px;top: -5px;">ABOUT</span>
+        </div>
+      </li>
+
+      <li>
+        <a href="#" class="laptop-logo">
+          <div class="laptop-logo-heading">
+            <i class="fa-brands fa-dochub"></i>
+          <span class="laptop-nav-item">Docs</span>
+          </div>
+          <p>Learn about all of the different aspects of Codewars</p>
+        </a>
+      </li>
+
+      </ul>
+    </div>
+
+
+
+  <!-- right - menu -->
+  
+  <div class="right-top-menu">
+    <div class="icon" id="click-moon"><a href=""><i class="fa-solid fa-moon"></i></a></div>
+      <div class="icon"><a href=""> <i class="fa-solid fa-bookmark"></i></a></div>
+      <div class="icon"><a href=""> <i class="fa-solid fa-bell"></i></a></div>
+      <div class="icon" id="hover-profile">
+        <a href=""> 
+          <img src="right-assets/asset 1.png" width="50px" height="30px" style="border-radius: 5px;margin-left: 15px;" alt=""> 
+        </a>
+      </div>
+      
+      <div class="icon"></div>
+      <div class="icon"></div>
+   </div>
+
+
+   
+
+
+ 
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-12 col-lg-12">
+          <div class="your-mail-wrapper">
+            <p>Your email is not confirmed.</p>
+            <button style="border: 1px solid rgba(0, 123, 255, 0.336);"><a href="" style="color: rgba(59, 131, 207, 0.495);">RESEND CONFIRMATION</a></button>
+          </div>
+
+
+          <!-- INFORMATION -->
+          <div class="information-wrapper d-flex flex-column" >
+            <p>INFORMATION</p>
+            <form action="">
+              <div class="row">
+                <div class="col">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <label for="exampleFormControlInput1" class="form-label">User Name</label>
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+
+                            
+              <form action=" ">
+                <div class="row mt-4">
+                  <div class="col">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                  </div>
+                  <div class="col">
+                    <label for="exampleFormControlInput1" class="form-label">Clan (Company, School or Organization)</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                  </div>
+                </div>
+
+              <div class="mb-3 mt-4">
+                <label for="exampleFormControlInput1" class="form-label">Skills (Comma separated)</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+
+              <label for="" class="mb-2">Development Experience</label><br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <p class="form-check-label" for="inlineRadio1">Beginner</p>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <p class="form-check-label" for="inlineRadio2">Advanced Beginner</p>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <p class="form-check-label" for="inlineRadio2">Competent</p>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <p class="form-check-label" for="inlineRadio2">Proficient</p>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <p class="form-check-label" for="inlineRadio2">Master</p>
+              </div>
+
+            </form>
+          </div>
+
+
+          <!-- SOCIAL -->
+          <div class="social-wrapper">
+            <p>SOCIAL</p>
+            <button class="mb-3" style="width: 500px;"><a href=""><i class="fa-brands fa-github"></i>&nbsp;&nbsp;Link Your Github</a></button>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"><i class="fa-brands fa-twitter"></i></span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+           
+           
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"><i class="fa-brands fa-linkedin"></i></span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+           
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"><i class="fa-brands fa-stack-overflow"></i></span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+          </div>
+
+          <!-- PREFERENCES -->
+          <div class="preferences-wrapper">
+            <form action="">
+              <p for="" class="mb-2">Email Notifications:</p>
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <p class="form-check-label" for="exampleRadios1">
+                  Do not email me
+                </p>
+              </div>
+              <div class="form-check  mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <p class="form-check-label" for="exampleRadios2">
+                  Send me an email Immediately
+                </p>
+              </div>
+              <div class="form-check  mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                <p class="form-check-label" for="exampleRadios3">
+                  Send me digest emails once every 15 minutes
+                </p>
+              </div>
+              <div class="form-check  mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <p class="form-check-label" for="exampleRadios2">
+                  Send me digest emails once an hour
+                </p>
+              </div>
+              <div class="form-check  mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                <p class="form-check-label" for="exampleRadios3">
+                  Send me digest emails once a day
+                </p>
+              </div><hr>
+
+
+            <p for="" class="mb-2">Default Catalog List View:</p>
+              <div class="form-check  mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <p class="form-check-label" for="exampleRadios1">
+                  Show All Kata
+                </p>
+              </div>
+              <div class="form-check  mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <p class="form-check-label" for="exampleRadios2">
+                  Approved Only
+                </p>
+              </div>
+              <div class="form-check  mb-2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                <p class="form-check-label" for="exampleRadios3">
+                  Beta Only
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <!-- PASSWORD -->
+          <div class="password-wrapper">
+            <p>PASSWORD</p>
+            <form action="">
+              <div class="row">
+                <div class="col">
+                <label for="exampleFormControlInput1" class="form-label">New Password (Leave blank if you don't wish to change it)</label>
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <label for="exampleFormControlInput1" class="form-label">Confirm New Password</label>
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+
+              <div class="mb-3 mt-4">
+                <label for="exampleFormControlInput1" class="form-label">Current Password (Needed if you change your password)</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+
+
+            <h5>WEBHOOKS</h5>
+              <p>Optionally be notified of events.</p>
+              <div class="row">
+                <div class="col">
+                <label for="exampleFormControlInput1" class="form-label">Payload url</label>
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <label for="exampleFormControlInput1" class="form-label">Secret</label>
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- RED SUBSCRIPTION -->
+          <div class="red-subscription-wrapper d-flex">
+            <div class="red-img">
+              <img src="right-assets/asset 0.svg" alt="">
+            </div>
+            <div class="upgrade" style="margin-left: 20px;">
+              <h5>Upgrade To Codewars Red!</h5>
+              <p>Support Codewars and get some fancy upgrades like Pro Stats, Head-to-head comparisons, No ads and more.</p>
+              <button  ><a href="" style="color: #b1361e;">LEARN MORE</a></button>
+            </div>
+          </div>
+          <!-- DELETE ACCOUNT -->
+        <div class="delete-account-wrapper">
+          <h5>DELETE ACCOUNT</h5>
+          <p>If you wish you can delete your account. Your authored kata, solutions and comments will remain but will instead be attached to a generic profile that is not associated with any of your personal information. After deleting your account you are free to sign up again using the same email address.</p>
+          <button style="border:1px solid #b1361e;"><a href="" style="color: #b1361e;">DELETE MY ACCOUNT</a></button>
+        </div>
+        <button class="bg-primary "><a href="" style="color: black;">UPDATE</a></button>
+    </div>
+</div>
+</div>
+    <script src="user-edit.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

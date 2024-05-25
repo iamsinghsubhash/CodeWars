@@ -1,0 +1,156 @@
+/* utility class */
+
+
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* *{
+    border: 1px solid red;
+} */
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+     
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: var(--background);
+    z-index: 10000;
+    background-image: url(assets/asset\ 15.png);
+
+    
+}
+/* padding  */
+
+.paddingLeft{
+    margin-left: 30px;
+}
+.paddingTxt{
+    padding: 5px 25px;
+    text-align: center;  
+}
+.menu-btn{
+    padding-right: 20px;
+}
+
+body{
+    background-color: var(--background);
+    background-image: url(assets/asset\ 15.png);
+    /* background-image: url(assets/633ef78628c4c77eb02cea8c_orange-red-gradient-background.png); */
+    /* z-index: 1;
+    mix-blend-mode: hard-light;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%; */
+
+}
+/* color  */
+:root{
+    --red:#ff4d4d;
+    --redTxt:#fa6659;
+    --whiteTxt:#ffffff;
+    --redCrad:#452e2c;
+    --black:#16171b;
+    --background:#16161a;
+    --cardColor:#222326;
+    --textColor:#929294;
+    --grey:#454549;
+    --greenBtn:#3cb652; 
+    --greenCard:#1a332d;
+}
+
+
+
+/*(blog-page) hero-section-1  */
+
+.blog-hero-txt-1{
+    font-family: "Input Sans", sans-serif;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: center;
+    color:#ffff;
+    margin-top: 100px;   
+}
+
+.blog-hero-p{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: var(--whiteTxt);
+    line-height: 36px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+.blog-hero-container{
+    max-width: 1100px;
+}
+
+.blog-buttonType{
+    font-size: 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+    letter-spacing: normal;
+    color: #fff;
+    background-color: var(--grey);
+    padding:3px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    margin-left: 20px;
+    background-image: url(assets/asset\ 15.png);
+
+}
+.blog-buttonType:hover{
+    background-color: var(--cardColor);
+    color: #454549;
+    transition:0.3s ease-in-out; 
+}
+.blog-hero-btn{
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+
+/* media query  */
+@media only screen and (max-width: 426px) {
+
+    /* section-1  */
+    .blog-hero-txt-1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 40px;
+        line-height: 0;
+    }
+    .blog-hero-txt-2{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 14px;
+    }
+    .blog-hero-p{
+        font-size: 20px;
+        text-align: center; 
+    }
+    .blog-buttonType{
+    padding:3px 10px;
+    margin-left: 10px;
+    }
+
+    /* nav bar  */
+    .navbar-brand img{
+     width: 90px;
+     margin-left: -20px;
+    }
+    .log-in-btn{
+        width: 100%;
+    }
+    .Join-btn{
+        width: 100%;
+    }
+}

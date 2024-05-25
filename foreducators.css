@@ -1,0 +1,288 @@
+/* utility class */
+
+
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;     
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: var(--background);
+    z-index: 10000;
+    background-image: url(assets/asset\ 15.png);   
+}
+
+
+/* padding  */
+
+.paddingLeft{
+    margin-left: 30px;
+}
+.paddingTxt{
+    padding: 5px 25px;
+    text-align: center;  
+}
+.menu-btn{
+    padding-right: 20px;
+}
+body{
+    background-color: var(--background);
+    background-image: url(assets/asset\ 15.png);
+    /* background-image: url(assets/633ef78628c4c77eb02cea8c_orange-red-gradient-background.png); */
+    /* z-index: 1;
+    mix-blend-mode: hard-light;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%; */
+}
+
+
+/* color  */
+:root{
+    --red:#ff4d4d;
+    --redTxt:#fa6659;
+    --whiteTxt:#ffffff;
+    --redCrad:#452e2c;
+    --black:#16171b;
+    --background:#16161a;
+    --cardColor:#222326;
+    --textColor:#929294;
+    --grey:#454549;
+    --greenBtn:#3cb652; 
+    --greenCard:#1a332d;
+}
+.hero-h1{
+    font-family: "Input Sans", sans-serif;
+    font-size: 58px;
+    line-height: 72.5px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #ffff;
+    margin-top: 166px;
+    width: 55%;
+}
+.hero-p{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #ffff;
+    width: 60%;
+}
+
+
+/* section - 2 */
+.edu-icon{
+    width: 50px;
+    text-align:start;
+    padding: 10px 0;
+}
+.edu-sec2-icon{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: var(--red);
+    padding:15px 15px;
+    color: var(--whiteTxt);
+    font-size: 30px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: normal;
+    border-radius: 5px;
+}
+.edu-sec2-container{
+    background-color: var(--greenCard);
+    border-radius: 15px;
+    border: none;
+    padding: 50px 30px;
+    margin-top: 50px;
+    background-image: url(assets/asset\ 15.png);
+
+}
+.edu-sec2-h3-color{
+    font-family: "Input Sans", sans-serif;
+    font-size: 30px;
+    line-height: 37.5px;
+    text-align: start;
+    letter-spacing: normal;
+    color: var(--whiteTxt);
+    padding: 10px 0;
+}
+.edu-sec2-p-color{
+    font-size: 20px;
+    font-family: "IBM Plex Sans", sans-serif;
+    line-height: 30px;
+    text-align: start;
+    letter-spacing: normal;
+    color: var(--textColor);
+    width: 84%;
+}    
+.edu-dojo-btn{
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.56px;
+    text-align: center;
+    color: var(--black);
+    border: none;
+    background-color: var(--greenBtn);
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+.img-fluid {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    left: 42px;
+}
+
+
+/* section - 3 */
+.sec3-edu-h6{
+    font-size: 30px;
+    line-height: 37.5px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #ffff;
+}
+.sec3-edu-p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #ffff;
+}
+
+/* company section  */
+.company-h3{
+    text-align: center;
+    color: #ffff;
+    padding: 90px 30px;
+}
+.company-logo img{
+    max-width: 200px;
+    max-height: 100px;
+    margin: 20px;
+    text-align: center;
+    filter: grayscale(100%);
+}
+/* section - 8  */
+.edu-sec8-icon-cont{
+    background-color: #9292945a;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    padding:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* background-image: url(assets/asset\ 15.png); */
+}
+.edu-sec8-icon-cont i{
+    font-size: 30px;
+   
+}
+.edu-hero-btn{
+    margin-top: 30px;
+}
+
+/* section - 10  */
+.edu-sec10-con-1{
+    background-color: var(--cardColor);
+    border-radius: 15px;
+    margin-top: 80px;
+    padding: 40px 60px;
+    color: var(--whiteTxt);
+    background-image: url(assets/asset\ 15.png);
+
+}
+.edu-sec10-con-2{
+    background-color: var(--cardColor);
+    border-radius: 15px;
+    margin-top: 80px;
+    padding: 40px 60px;
+    color: var(--whiteTxt);
+    background-image: url(assets/asset\ 15.png);
+
+}
+.edu-sec10-h3{
+    font-family: "Input Sans", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37.5px;
+    text-align: start;
+    letter-spacing: normal;
+    padding: 15px 0;
+    color: var(--white);
+}
+
+/* media query  */
+@media only screen and (max-width: 426px) {
+    .hero-h1{
+    font-size: 40px; 
+    line-height: 42.5px;
+    width: 100%;
+    text-align: start;
+    padding: 0 15px;
+    }
+    .hero-p{
+        width: 100%;
+        font-size: 18px;
+        line-height: 26px;
+        color: var(--textColor);
+        padding: 0 15px;
+    }
+
+/* section - 2 */
+
+    .edu-sec2-wrapper{
+        padding: 0 20px;
+    }
+    .edu-sec2-icon{
+        padding:10px 10px; 
+    }
+    .edu-sec2-container{
+        padding: 30px 20px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .edu-sec2-p-color{
+        width: 100%;
+    }
+    .edu-sec2-btn{
+        text-align: start;
+    }
+    .edu-dojo-btn{
+        margin-bottom: 30px;
+    }
+    .edu-sec2-img img{
+        margin-left: 9%;
+        padding: 0 -10px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-h1{
+        width: 100%;
+        font-size: 45px;
+        line-height: 45.5px;
+    }
+    .hero-p {
+        width: 100%;
+    }
+    .edu-dojo-btn {
+        margin-bottom: 26px;
+    }
+}

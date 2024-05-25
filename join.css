@@ -1,0 +1,155 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;    
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: var(--background);
+    z-index: 10000;
+    background-image: url(assets/asset\ 15.png);
+
+    
+}
+/* padding  */
+
+.paddingLeft{
+    margin-left: 30px;
+}
+.paddingTxt{
+    padding: 5px 25px;
+    text-align: center;  
+}
+.menu-btn{
+    padding-right: 20px;
+}
+
+body{
+    background-color: var(--background);
+    background-image: url(assets/asset\ 15.png);
+}
+/* color  */
+:root{
+    --red:#ff4d4d;
+    --redTxt:#fa6659;
+    --whiteTxt:#ffffff;
+    --redCrad:#452e2c;
+    --black:#16171b;
+    --background:#16161a;
+    --cardColor:#222326;
+    --textColor:#929294;
+    --grey:#454549;
+    --greenBtn:#3cb652; 
+    --greenCard:#1a332d;
+}
+
+/* utility clas  */
+a{
+    color: var(--whiteTxt);
+    text-decoration: none;
+}
+
+.clicked{
+    background-color: black;
+    border: 1px solid #fff;
+}
+
+
+
+.bg_color{
+background-color: black;
+color: #fff;
+}
+
+body{
+    background-color:#16171b;
+    text-align: center;
+    color: #fff;    
+}
+
+.logo-join img{
+   margin-top: 35px;
+   width: 150px;
+   text-align: center;
+}
+.join-card-wrapper{
+    background-color: #101114;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 30px 20px;
+    width: 62%;
+   
+}
+.join-footer-des{
+    color: var(--textColor);
+}
+
+/* github btn  */
+.github_link_btn{
+   
+    text-align: start;
+    padding-bottom: 10px;   
+}
+.github_link_btn button{
+    border: none;
+    color: #ffff;
+    
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: var(--cardColor);
+}
+
+/* input box  */
+.form-control{
+    border: 1px solid rgba(128, 128, 128, 0.174);
+}
+.input-group-text{
+    border: 1px solid rgba(128, 128, 128, 0.174);
+
+}
+.form-control::placeholder {
+    color: var(--textColor); /* Change this to the color you desire */
+    font-size: 14px;
+}
+
+
+/* enlist btn  */
+
+.enlist_btn{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #ca523b;
+    padding: 5px 0px;
+    width: 20%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.enlist_btn:hover{
+    background-color: #9e402e;
+    transition: 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 426px) {
+    .join-card-wrapper{
+        width: 100%;
+        padding: 30px 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .enlist_btn{
+    font-size: 12px;
+    }
+}

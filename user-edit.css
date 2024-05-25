@@ -1,0 +1,371 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #16171b;
+    color: white;
+    border: none;
+    box-sizing: border-box;  
+}
+
+/* profile-wrapper */
+.profile-wrapper{   
+background-color: #222327;
+border-radius: 5px;
+padding:25px;
+float: right;
+height: 250px;
+width: 200px;
+margin-top: 0;
+/* position: fixed; */
+display: none;
+/* z-index: 1; */
+
+}
+label{
+    background-color: #212020;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.profile-wrapper a{
+    color: rgb(173, 172, 172);
+    text-decoration: none;
+}
+.profile-botom-border{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.562);
+}
+
+/* toggle background  */
+.dark-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  /*lef side bar  */
+.laptop-sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height:2050px;
+    left: -45px;
+    background-color: black;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);   
+    color: azure; 
+    z-index: 1;
+}
+.dot{
+    height: 7px;
+    width: 7px;
+    background-color: rgb(74, 71, 71);
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    /* top: 25px; */    
+}
+.dot-wrapper{
+    position: relative;
+    color: rgb(153, 149, 149);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+.laptop-logo-heading{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+}
+.laptop-logo-heading i{
+    font-size: 25px;
+    display: flex;
+    align-items:end;
+    /* margin-top: 20px; */
+}
+.laptop-logo-heading img{
+    font-size: 65px;
+
+}
+.laptop-logo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    /* margin: 10px 0 0  10px; */
+}
+.laptop-logo i{
+    width: 40px;
+    height:30px;
+    padding: 0 5px;
+    /* border-radius: 50%; */
+}
+.laptop-logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 15px;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+}
+.laptop-logo p{
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    left:55px;
+    /* top: 5px; */
+    padding-right: 20px;
+ 
+}
+
+li a{
+    position: relative;
+    color: rgb(153, 149, 149);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 2px 15px;
+    text-decoration: none;
+}
+.fas{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    /* top: 14px; */
+    font-size: 20px;
+    text-align: center;
+}
+.laptop-nav-item{
+    position: relative;
+    /* top: 15px; */
+    margin-left: 10px;
+}
+li a:hover{
+    background: #252525;
+    width: 100%;
+    span{
+        color: rgb(1, 156, 246);
+    }
+    .laptop-logo-heading i{
+        color: rgb(1, 156, 246);
+    }
+
+}
+.profile-wrapper a:hover{
+  color: grey;
+  transition: all 0.8 ease-in-out;
+}
+.laptop-sidebar:hover{
+    background-color: black;
+    width: 370px;
+    transition: all 0.5s ease;
+    .dot{
+        display: none;
+    }
+    .container{
+        transform: translate(320px);
+    }
+    .container{
+    display: block;
+    margin-left: 0;
+    padding: 0 15px 15px;
+    position: relative;
+    }
+
+   
+}
+
+.right-top-menu .icon a i:hover{
+   color: red;
+   transition: 0.2s ease-in-out;
+}
+
+
+
+.container{
+    width: 950px;
+    margin-top: 70px;
+}
+.container button{
+    border:1px solid rgba(255, 255, 255, 0.233);
+    background-color: #16171b;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.container button a{
+    color: white;
+    text-decoration: none;
+}
+.information-wrapper input{
+    background-color: #181919;
+    color: #fff;
+    border: none;
+}
+.information-wrapper input:hover{
+    background-color: black;
+}
+.your-mail-wrapper{
+   background-color: #222327;
+   padding: 10px 20px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.information-wrapper{
+    background-color: #222327;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+ /* left icon  */
+ .left-icon{
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    width: 50px;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-size: 2em;
+    background: var(--color-ui-bg);
+    padding-left: 10px;
+    z-index: 100;
+    display: none;
+ }
+
+/* social  */
+.social-wrapper{
+    background-color: #222327;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.social-wrapper span{
+    background-color: #16171b;
+    color: #fff;
+    border: none;
+}
+.social-wrapper input{
+    background-color: #16171b;
+    color: #fff;
+    border: none;
+}
+.social-wrapper input:hover{
+    background-color: black;
+}
+.form-control::placeholder{
+    color: rgb(153, 149, 149);
+}
+
+/* preferences-wrapper */
+.preferences-wrapper{
+    background-color: #222327;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.preferences-wrapper input{
+    background-color: #16171b;
+    color: #fff;
+    border: none;
+}
+.preferences-wrapper input:hover{
+    background-color: black;
+}
+
+/* password-wrapper */
+
+.password-wrapper{
+    background-color: #222327;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.password-wrapper input{
+    background-color: #16171b;
+    color: #fff;
+    border: none;
+}
+.password-wrapper input:hover{
+    background-color: black;
+}
+
+/* red-subscription-wrapper */
+
+.red-subscription-wrapper{
+    background-color: #222327;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+.delete-account-wrapper{
+    background-color: #222327;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+.delete-account-wrapper p{
+    font-size: 14px;
+}
+.upgrade p{
+    font-size: 14px;
+}
+/* right-top-menu */
+.right-top-menu{
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: #222327;
+    padding: 10px 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 20px; 
+    width: 20%;
+    position: fixed;
+}
+.right-top-menu a i{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #fff;   
+}
+.icon a i{
+    color: #fff;
+}
+
+
+/* display  */
+
+.display-right{
+    display: flex;
+    
+}
+.display h5{
+    font-size: 15px;
+}
+.display p{
+    font-size: 15px;
+    width: 100%;
+}
+.display{
+display: none;
+}
+
+@media screen and (max-width:425px){
+    .input-group input{
+        width: 100%;
+    }
+    /* nav{
+        display: none;
+    } */
+    .right-top-menu{
+        width: 60%;
+    }
+    /* .left-icon{
+        display: block;
+        float: left;
+    } */
+}
